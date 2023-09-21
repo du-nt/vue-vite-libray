@@ -2,7 +2,9 @@
   "name": "du-test2-lib",
   "version": "1.0.0",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/du-test2-lib.umd.cjs",
   "module": "./dist/du-test2-lib.js",
   "exports": {
@@ -20,7 +22,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "pinia": "^2.1.6",
+    "vue": "^3.2.47",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",

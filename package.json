@@ -9,8 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "du-test2-lib": "file:./lib/du-test2-lib",
+    "pinia": "^2.1.6",
     "vue": "^3.3.4",
-    "du-test2-lib":"file:./lib/du-test2-lib"
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
